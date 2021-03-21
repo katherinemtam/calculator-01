@@ -51,16 +51,13 @@ export function handleEverythingClick(){
     let result = 0;
     const optionListValue = optionList.value;
 
-    if(optionListValue === "add") {
+    if(optionListValue === 'add') {
         result = add(value1, value2);
     } else if(optionListValue === "subtract") {
-        console.log("sub branch reached");
         result = sub(value1, value2);
     } else if(optionListValue === "multiply") {
-        console.log("mult branch reached");
         result = mult(value1, value2);
     } else{
-        console.log("else branch reached");
         result = div(value1, value2);
     }
     
