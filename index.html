@@ -17,7 +17,22 @@
         <h1>Let's do some math!</h1>
     </header>
     <main>
-        <section class="main-section">
+        <section class="dropdown-section">Function Dropdown:
+            <div>
+                <input id="input1" type="number"/>
+                <select id="option-list">
+                    <option value="add">+</option>
+                    <option value="subtract">-</option>
+                    <option value="multiply">x</option>
+                    <option value="divide">÷</option>
+                </select>
+                <input id="input2" type="number"/>
+                =
+                <span id="overall-result"></span>
+                <div class="button"><button id="calculate-button">Calculate!</button></div>
+            </div>
+        </section>
+        <section class="add-section">Addition:
             <div id="addition">
                 <input id="add-input1" type="number"/>
                 +
@@ -27,7 +42,7 @@
                 <div class="button"><button id="add-button">Calculate!</button></div>
             </div>
         </section>
-        <section class="main-section">
+        <section class="sub-section">Subtraction:
             <div id="subtraction">
                 <input id="sub-input1" type="number"/>
                 -
@@ -37,7 +52,7 @@
                 <div class="button"><button id="sub-button">Calculate!</button></div>
             </div>
         </section>
-        <section>
+        <section class="mult-section">Multiplication:
             <div id="multiplication">
                 <input id="mult-input1" type="number"/>
                 x
@@ -46,8 +61,8 @@
                 <span id="mult-result"></span>
                 <div class="button"><button id="mult-button">Calculate!</button></div>
             </div>
-        </section>
-        <section>
+        </section> 
+        <section class="div-section">Division:
             <div id="division">
                 <input id="div-input1" type="number"/>
                 ÷ 
